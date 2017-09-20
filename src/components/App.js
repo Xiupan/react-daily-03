@@ -12,7 +12,7 @@ class App extends Component {
             Earthquakes!
           </div>
           <EarthquakeInfo />
-          <EarthquakeList />
+          <EarthquakeList />  
         </div>
       </div>
     );

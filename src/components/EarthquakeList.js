@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import '../styles/App.css';
 import earthquakes from '../data/earthquakes'
 import moment from 'moment'
 
@@ -22,8 +23,10 @@ class EarthquakeList extends Component {
       )
     })
     return (
-      <div>
-        {elements}
+      <div className="quake-list">
+        <div className="row">
+          {elements}
+        </div>
       </div>
     )
   }
